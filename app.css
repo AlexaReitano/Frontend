@@ -92,6 +92,8 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+
+    display: none;
 }
 
 .header .h1{
@@ -145,9 +147,19 @@ body{
     background: chartreuse;
     margin: 0 1em;
 }
-.main .seccion .ul .li .a{}
-.main .seccion .h2{}
-.main .seccion .h3{}
+.main .seccion .ul .li .a{
+    background: salmon;
+}
+.main .seccion .h2{
+    font-family: var(--tipo-titular);
+    font-weight: 800;
+    font-size: 5cm;
+}
+.main .seccion .h3{
+    font-family: var(--tipo-titular);
+    font-size: 3em;
+    font-style: italic;
+}
 
 .seccion .p{}
 .seccion .grid{
