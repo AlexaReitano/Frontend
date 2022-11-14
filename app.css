@@ -30,8 +30,24 @@
 .header .nav .ul .li .a{}
 
 
-.main{}
-.main .seccion{}
+.main{
+    background: lightgrey;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.main .seccion{
+    width: 100%;
+    min-height: 80vh;
+    background: lightpink;
+    margin: 1em 0;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .main .seccion .cirulos{}
 .main .seccion .cirulo{}
 .main .seccion .h2{}
