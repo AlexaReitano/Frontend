@@ -197,6 +197,11 @@ body{
 .about .rrss{
     width: 100%;
     background: lightcoral;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 .about .li{
     background: orange;
@@ -209,3 +214,9 @@ body{
     background: red;
 }
 
+.footer{
+    background-color: lightpink;
+    padding:2em 0;
+    text-align: center;
+}
+.footer .span{}
