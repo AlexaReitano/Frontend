@@ -140,10 +140,12 @@ body{
 .seccion .p{}
 .seccion .grid{
     width: 90%;
+    max-width: 40em;
     background: lightsalmon;
+    margin: 1em 0;
 
     display: grid;
-    grid-template-columns: repeat( auto-fit , minmax(10rem , 1fr));
+    grid-template-columns: repeat( auto-fit , minmax( 10rem , 1fr));
     gap: 1em;
 }
 .seccion .article{
@@ -156,18 +158,42 @@ body{
     justify-content: center;
     align-items: center;
 
+    position: relative;
+
 }
 .seccion .a{}
-.seccion .figure{}
+.seccion .figure{
+    width: 100%;
+    background: indigo;
+}
 .seccion .img{
     width: 100%;
-    background: blue;
+    background: lime;
 }
-.seccion .h4{}
+.seccion .h4{
+    width: 100%;
+    height: 50%;
+    background: lightblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 .about{}
-.about .h2{}
-.about .p{}
+.about .h2{
+    margin: 0 0 1rem;
+}
+.about .p{
+    max-width: 40em;
+    background: lime;
+    margin: 0 0 1em;
+    text-align: left;
+}
 .about .rrss{}
 .about .li{}
 .about .li .a{}
