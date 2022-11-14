@@ -194,8 +194,18 @@ body{
     margin: 0 0 1em;
     text-align: left;
 }
-.about .rrss{}
-.about .li{}
+.about .rrss{
+    width: 100%;
+    background: lightcoral;
+}
+.about .li{
+    background: orange;
+    margin: 0 1em;
+}
 .about .li .a{}
-.about .li .a .svg{}
+.about .li .a .svg{
+    width:3em;
+    height:3em;
+    background: red;
+}
 
