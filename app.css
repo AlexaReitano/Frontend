@@ -2,10 +2,54 @@
     width: 100%;
     min-width: 5em;
     background: lightpink;
+
+    padding: 1em 2em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
-.header .h1{}
+
+.header .h1{
+    background: lightgrey;
+}
 .header .h1 .a{}
-.header .nav{}
-.header .nav .ul{}
-.header .nav .ul .li{}
+.header .nav{
+    background: red;
+}
+.header .nav .ul{
+    display: flex;
+    flex-flow: space-between;
+    align-items: center;
+}
+.header .nav .ul .li{
+    background: limegreen;
+    margin:0 1em;
+}
 .header .nav .ul .li .a{}
+
+
+.main{}
+.main .seccion{}
+.main .seccion .cirulos{}
+.main .seccion .cirulo{}
+.main .seccion .h2{}
+.main .seccion .h3{}
+
+.seccion .p{}
+.seccion .grid{}
+.seccion .article{}
+.seccion .a{}
+.seccion .figure{}
+.seccion .img{}
+.seccion .h4{}
+
+.about{}
+.about .h2{}
+.about .p{}
+.about .rrss{}
+.about .li{}
+.about .li .a{}
+.about .li .a .svg{}
+
