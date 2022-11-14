@@ -221,8 +221,8 @@ body{
 }
 .about .li .a{}
 .about .li .a .svg{
-    width:3em;
-    height:3em;
+    width:2em;
+    height:2em;
     background: red;
 }
 
