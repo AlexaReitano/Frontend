@@ -134,6 +134,18 @@ body{
 
 .main .seccion .cirulos{}
 .main .seccion .cirulo{}
+.main .seccion .ul{
+    background: red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main .seccion .ul .li{
+    background: chartreuse;
+    margin: 0 1em;
+}
+.main .seccion .ul .li .a{}
 .main .seccion .h2{}
 .main .seccion .h3{}
 
