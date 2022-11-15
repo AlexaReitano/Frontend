@@ -14,6 +14,8 @@ img , figure{
     object-position: center center;
 }
 
+
+
 a {
     display: block;
     text-decoration: none;
@@ -137,7 +139,8 @@ body{
 .main .seccion .cirulos{}
 .main .seccion .cirulo{}
 .main .seccion .ul{
-    background: red;
+    /* background: red; */
+    margin: 2em 0 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -148,7 +151,12 @@ body{
     margin: 0 1em;
 }
 .main .seccion .ul .li .a{
-    background: salmon;
+    border-top: 1px solid rgba(0, 0, 0,.7);
+
+    padding: 1em 1em 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    
 }
 .main .seccion .h2{
     font-family: var(--tipo-titular);
