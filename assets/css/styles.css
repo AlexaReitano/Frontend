@@ -80,7 +80,6 @@ body{
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -noz-osx-font-smoothing: grayscale;
-    background: url(../img/Photouniverso.jpg);
 }
 
 .fondo{
@@ -130,6 +129,7 @@ body{
 }
 
 .main .seccion{
+    background: url(../img/Photouniverso.jpg);
     width: 100%;
     min-height: 80vh;
     background: lightpink;
@@ -173,7 +173,7 @@ body{
 .main .seccion .h2{
     font-family: var(--tipo-titular);
     font-weight: 600;
-    font-size: 5cm;
+    font-size: 3cm;
     line-height: 1em;
 }
 .main .seccion .h3{
