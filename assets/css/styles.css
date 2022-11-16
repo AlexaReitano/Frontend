@@ -14,6 +14,7 @@ img , figure{
     object-position: center center;
 }
 
+
 a {
     display: block;
     text-decoration: none;
@@ -79,6 +80,13 @@ body{
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -noz-osx-font-smoothing: grayscale;
+    background: url(../img/Photouniverso.jpg);
+}
+
+.fondo{
+    background: rgb(red, green, blue);
+    /* background-image: url(../img/Photouniverso.jpg); */
+    /* background-image: url(https://i.pinimg.com/736x/60/4a/dc/604adc90a7ba80ffc7457d7b8510fcbb.jpg); */
 }
 
 .header{
