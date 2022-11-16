@@ -131,10 +131,10 @@ body{
 .main .seccion{
     background: url(../img/Photouniverso.jpg);
     width: 100%;
-    min-height: 80vh;
+    min-height: 50vh;
     background: lightpink;
     /* margin: 1em 0; */
-    padding: 2em;
+    padding: 0;
 
     display: flex;
     flex-flow: column wrap;
@@ -142,7 +142,7 @@ body{
     align-items: center;
 }
 .seccion .info{
-    font-size: 1.2em;
+    font-size: 2em;
 }
 .main .seccion .cirulos{}
 .main .seccion .cirulo{}
@@ -171,12 +171,14 @@ body{
     color: white;
 }
 .main .seccion .h2{
+    background: lightcyan;
     font-family: var(--tipo-titular);
     font-weight: 600;
     font-size: 3cm;
     line-height: 1em;
 }
 .main .seccion .h3{
+    background: lightgray;
     font-family: var(--tipo-titular);
     font-size: 3.5em;
 }
@@ -185,7 +187,6 @@ body{
 .seccion .grid{
     width: 90%;
     max-width: 40em;
-    background: lightsalmon;
     margin: 1em 0;
 
     display: grid;
@@ -217,7 +218,8 @@ body{
 .seccion .h4{
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,.5) ;
+    background-color: black ;
+    backdrop-filter: blur(1em);
     position: absolute;
     bottom:0;
     left:0;
@@ -226,7 +228,20 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    
+    color: white;
+    font-size: 1.8em;
+    font-family: var(--tipo-titular);
+    font-style: italic;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all .5s ease;
 }
+.seccion .article:hover .h4{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 .works .h2{
 margin: 0 0 1rem;
 }
