@@ -196,7 +196,7 @@ body{
 .seccion .article{
     width: 100;
     min-height: 20vh;
-    background: lightgoldenrodyellow;
+    background: lightskyblue;
 
     display: flex;
     flex-flow: column nowrap;
@@ -204,6 +204,7 @@ body{
     align-items: center;
 
     position: relative;
+    overflow: hidden;
 
 }
 .seccion .a{}
@@ -234,12 +235,12 @@ body{
     font-family: var(--tipo-titular);
     font-style: italic;
     opacity: 0;
-    transform: translateX(100%);
+    transform:translateZ(1) scale(1.2);
     transition: all .5s ease;
 }
 .seccion .article:hover .h4{
     opacity: 1;
-    transform: translateX(0%);
+    transform:translateZ(1) scale(1);
 }
 
 .works .h2{
