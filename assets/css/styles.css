@@ -207,6 +207,11 @@ body{
     overflow: hidden;
 
 }
+
+.navbar.navbar-expand-lg.bg-secondary{
+    background-color: lightpink !important;
+}
+
 .seccion .a{}
 .seccion .figure{
     width: 100%;
