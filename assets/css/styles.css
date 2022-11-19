@@ -212,6 +212,24 @@ body{
     background-color: rgb(60, 103, 223) !important;
 }
 
+i.fa-brands.fa-youtube.fa-2xl:hover{
+    color: red;
+}
+
+i.fa-brands.fa-tiktok.fa-2xl:hover{
+    color: blueviolet;
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: pink;
+}
+
+i.fa-regular.fa-user.fa-2xl:hover{
+    color: brown;
+}
+
+
+
 .seccion .a{}
 .seccion .figure{
     width: 100%;
