@@ -174,15 +174,13 @@ body{
     color: white;
 }
 .main .seccion .h2{
-    background: lightcyan;
-    font-family: var(--tipo-titular);
+    
     font-weight: 600;
     font-size: 3cm;
     line-height: 1em;
 }
 .main .seccion .h3{
-    background: lightgray;
-    font-family: var(--tipo-titular);
+    
     font-size: 3.5em;
 }
 
