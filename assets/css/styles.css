@@ -164,7 +164,7 @@ body{
     align-items: center;
 }
 .main .seccion .ul .li{
-    background: chartreuse;
+    
     margin: 0 1em;
 }
 .main .seccion .ul .li .a{
@@ -180,15 +180,14 @@ body{
     color: white;
 }
 .main .seccion .h2{
-    
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3cm;
     line-height: 1em;
 }
 .main .seccion .h3{
-    
     font-size: 3.5em;
 }
+
 
 .seccion .p{}
 .seccion .grid{
@@ -254,7 +253,7 @@ i.fa-regular.fa-user.fa-lg:hover{
 .seccion .h4{
     width: 100%;
     height: 100%;
-    background-color: black ;
+    background-color: rgb(0, 0, 0) ;
     backdrop-filter: blur(1em);
     position: absolute;
     bottom:0;
