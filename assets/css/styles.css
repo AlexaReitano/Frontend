@@ -141,6 +141,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+
 .seccion .info{
     font-size: 2em;
 }
@@ -208,8 +211,11 @@ body{
 
 }
 
+
+
+
 .navbar.navbar-expand-lg.bg-secondary{
-    background-color: rgb(60, 103, 223) !important;
+    background-color: rgb(37, 104, 192) !important;
 }
 
 i.fa-brands.fa-youtube.fa-lg:hover{
@@ -227,6 +233,8 @@ i.fa-brands.fa-instagram.fa-lg:hover{
 i.fa-regular.fa-user.fa-lg:hover{
     color: brown;
 }
+
+
 
 
 
@@ -266,9 +274,16 @@ i.fa-regular.fa-user.fa-lg:hover{
     transform:translateZ(1) scale(1);
 }
 
+
+
+
+
 .works .h2{
 margin: 0 0 1rem;
 }
+
+
+
 .about{}
 .about .h2{
     margin: 0 0 1rem;
@@ -298,6 +313,9 @@ margin: 0 0 1rem;
     height:2em;
     background: red;
 }
+
+
+
 
 .footer{
     background-color: lightpink;
