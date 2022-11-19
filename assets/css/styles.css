@@ -212,19 +212,19 @@ body{
     background-color: rgb(60, 103, 223) !important;
 }
 
-i.fa-brands.fa-youtube.fa-xl:hover{
+i.fa-brands.fa-youtube.fa-lg:hover{
     color: red;
 }
 
-i.fa-brands.fa-tiktok.fa-xl:hover{
+i.fa-brands.fa-tiktok.fa-lg:hover{
     color: blueviolet;
 }
 
-i.fa-brands.fa-instagram.fa-xl:hover{
+i.fa-brands.fa-instagram.fa-lg:hover{
     color: pink;
 }
 
-i.fa-regular.fa-user.fa-xl:hover{
+i.fa-regular.fa-user.fa-lg:hover{
     color: brown;
 }
 
