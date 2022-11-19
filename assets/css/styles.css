@@ -209,7 +209,7 @@ body{
 }
 
 .navbar.navbar-expand-lg.bg-secondary{
-    background-color: lightpink !important;
+    background-color: rgb(60, 103, 223) !important;
 }
 
 .seccion .a{}
