@@ -88,6 +88,9 @@ body{
     /* background-image: url(https://i.pinimg.com/736x/60/4a/dc/604adc90a7ba80ffc7457d7b8510fcbb.jpg); */
 }
 
+
+
+
 .header{
     width: 100%;
     min-width: 5em;
@@ -119,7 +122,10 @@ body{
     background: limegreen;
     margin:0 1em;
 }
-.header .nav .ul .li .a{}
+.header .nav .ul .li .a{
+
+}
+
 
 
 .main{
@@ -129,7 +135,7 @@ body{
 }
 
 .main .seccion{
-    background: url(../img/Photouniverso.jpg);
+
     width: 100%;
     min-height: 50vh;
     background: lightpink;
