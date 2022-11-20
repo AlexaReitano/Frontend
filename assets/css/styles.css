@@ -20,12 +20,10 @@ h3,
 h4,
 h5,
 h6 {
- color: inherit;
+ color: white;
  font-weight: inherit;
  font-size: inherit;
 }
-
-
 
 
 .main .seccion{
@@ -43,8 +41,6 @@ h6 {
     position: relative;
     z-index: 2;
 }
-
-
 
 
 
@@ -78,6 +74,7 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 29rem;
 }
 
 .capa{
@@ -92,6 +89,14 @@ video {
 }
 
 .col-3{
+    position: relative;
+    z-index: 2;
+}
+
+
+section.about{
+
+    margin-top: 30rem;
     position: relative;
     z-index: 2;
 }
