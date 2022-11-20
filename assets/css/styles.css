@@ -1,11 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    vertical-align: baseline;
-}
-
 img , figure{
     max-width: 100%;
     width: 100%;
@@ -14,34 +6,15 @@ img , figure{
     object-position: center center;
 }
 
-
 a {
     display: block;
     text-decoration: none;
     color: inherit;
 }
 
-video {
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    object-fit: cover;
-    object-position: center center;
-}
-
-p a {
-    display: inline;
-}
 
 li {
     list-style-type: none;
-}
-
-table,
-tr,
-td{
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 html {
@@ -59,9 +32,6 @@ h6 {
  font-size: inherit;
 }
 
-form, button,
-input,
-textarea,
 select {
     font-family: inherit;
     font-size: inherit;
@@ -82,17 +52,9 @@ body{
     -noz-osx-font-smoothing: grayscale;
 }
 
-.fondo{
-    background: rgb(red, green, blue);
-    /* background-image: url(../img/Photouniverso.jpg); */
-    /* background-image: url(https://i.pinimg.com/736x/60/4a/dc/604adc90a7ba80ffc7457d7b8510fcbb.jpg); */
-}
-
-
-
 
 .header{
-    width: 100%;
+    /* width: 100%;
     min-width: 5em;
   
 
@@ -103,32 +65,17 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    display: none;
+    display: none; */
 }
 
-.header .h1{
-
-}
-.header .h1 .a{}
-.header .nav{}
-.header .nav .ul{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 .header .nav .ul .li{
 
     margin:0 1em;
 }
-.header .nav .ul .li .a{
-
-}
-
 
 
 .main{
-    background: lightgrey;
+
     margin: 0 0 0;
     text-align: center;
 }
@@ -137,7 +84,7 @@ body{
 
     width: 100%;
     min-height: 30vh;
-    background: lightpink;
+ 
     /* margin: 1em 0; */
     padding: 3em;
 
@@ -225,18 +172,22 @@ i.fa-regular.fa-user.fa-lg:hover{
 
 .works .h2{
 margin: 0 0 1rem;
+
 }
 
 
 .about{}
 .about .h2{
     margin: 0 0 1rem;
+    position: relative;
+    z-index: 2;
 }
 .about .p{
     max-width: 50em;
-    background: lightcoral;
     margin: 0 0 1em;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -245,4 +196,34 @@ margin: 0 0 1rem;
     padding:2em 0;
     text-align: center;
 }
-.footer .span{}
+
+
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.col-3{
+    position: relative;
+    z-index: 2;
+}
