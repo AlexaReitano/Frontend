@@ -94,7 +94,7 @@ body{
 .header{
     width: 100%;
     min-width: 5em;
-    background: lightpink;
+  
 
     padding: 1em 2em;
 
@@ -107,19 +107,18 @@ body{
 }
 
 .header .h1{
-    background: lightgrey;
+
 }
 .header .h1 .a{}
-.header .nav{
-    background: red;
-}
+.header .nav{}
 .header .nav .ul{
     display: flex;
-    flex-flow: space-between;
+    flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
 }
 .header .nav .ul .li{
-    background: limegreen;
+
     margin:0 1em;
 }
 .header .nav .ul .li .a{
@@ -130,7 +129,7 @@ body{
 
 .main{
     background: lightgrey;
-    margin: 0 0 1em;
+    margin: 0 0 0;
     text-align: center;
 }
 
@@ -191,6 +190,7 @@ body{
 
 .seccion .p{}
 .seccion .grid{
+    background: lightcoral;
     width: 90%;
     max-width: 40em;
     margin: 1em 0;
@@ -200,9 +200,9 @@ body{
     gap: 1em;
 }
 .seccion .article{
-    width: 100;
+    width: 100%;
     min-height: 20vh;
-    background: lightskyblue;
+    background: lightgoldenrodyellow;
 
     display: flex;
     flex-flow: column nowrap;
@@ -218,7 +218,7 @@ body{
 
 
 .navbar.navbar-expand-lg.bg-secondary{
-    background-color: rgb(37, 104, 192) !important;
+    background-color: rgb(189, 59, 124) !important;
 }
 
 i.fa-brands.fa-youtube.fa-lg:hover{
@@ -244,11 +244,11 @@ i.fa-regular.fa-user.fa-lg:hover{
 .seccion .a{}
 .seccion .figure{
     width: 100%;
-    background: indigo;
+    background: lightcoral;
 }
 .seccion .img{
     width: 100%;
-    background: lime;
+    background: lightcoral;
 }
 .seccion .h4{
     width: 100%;
@@ -293,7 +293,7 @@ margin: 0 0 1rem;
 }
 .about .p{
     max-width: 40em;
-    background: lime;
+    background: lightcoral;
     margin: 0 0 1em;
     text-align: left;
 }
