@@ -6,13 +6,6 @@ img , figure{
     object-position: center center;
 }
 
-a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-}
-
-
 li {
     list-style-type: none;
 }
@@ -46,7 +39,7 @@ body{
     font-family: var(--tipo-principal);
     font-size: 100%;
     min-height: 100vh;
-    background-color: var(--blanco);
+    background-color: black
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -noz-osx-font-smoothing: grayscale;
@@ -68,23 +61,13 @@ body{
     display: none; */
 }
 
-.header .nav .ul .li{
 
-    margin:0 1em;
-}
-
-
-.main{
-
-    margin: 0 0 0;
-    text-align: center;
-}
 
 .main .seccion{
 
     width: 100%;
     min-height: 30vh;
- 
+
     /* margin: 1em 0; */
     padding: 3em;
 
@@ -92,7 +75,10 @@ body{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
+
 
 
 .seccion .grid{
@@ -108,7 +94,7 @@ body{
 .seccion .article{
     width: 100%;
     min-height: 20vh;
-    background: lightgoldenrodyellow;
+    background: rgb(252, 252, 252);
 
     display: flex;
     flex-flow: column nowrap;
