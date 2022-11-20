@@ -93,6 +93,18 @@ video {
     z-index: 2;
 }
 
+.row{
+    position: relative;
+    z-index: 2;
+    text-align: right;
+    margin-top: -350px;
+}
+
+section{
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
 
 section.about{
 
