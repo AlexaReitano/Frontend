@@ -139,7 +139,7 @@ body{
     min-height: 50vh;
     background: lightpink;
     /* margin: 1em 0; */
-    padding: 0;
+    padding: 0.5em;
 
     display: flex;
     flex-flow: column wrap;
@@ -167,7 +167,7 @@ body{
     margin: 0 1em;
 }
 .main .seccion .ul .li .a{
-    border:1px solid rgba(0,0,0,.2);
+    border:1px solid rgba(0,0,0,.3);
     border-radius: 50%;
     padding: 1em 1em 1em;
     text-transform: uppercase;
@@ -179,12 +179,14 @@ body{
     color: white;
 }
 .main .seccion .h2{
-    font-weight: 500;
-    font-size: 3cm;
-    line-height: 1em;
+    font-family: var(--tipo-titular);
+    font-weight: 800;
+    font-size: 5em;
 }
 .main .seccion .h3{
-    font-size: 3.5em;
+    font-family: var(--tipo-titular);
+    font-size: 3em;
+    font-style: italic;
 }
 
 
@@ -213,33 +215,6 @@ body{
     overflow: hidden;
 
 }
-
-
-
-
-.navbar.navbar-expand-lg.bg-secondary{
-    background-color: rgb(189, 59, 124) !important;
-}
-
-i.fa-brands.fa-youtube.fa-lg:hover{
-    color: red;
-}
-
-i.fa-brands.fa-tiktok.fa-lg:hover{
-    color: blueviolet;
-}
-
-i.fa-brands.fa-instagram.fa-lg:hover{
-    color: pink;
-}
-
-i.fa-regular.fa-user.fa-lg:hover{
-    color: brown;
-}
-
-
-
-
 
 .seccion .a{}
 .seccion .figure{
@@ -277,6 +252,25 @@ i.fa-regular.fa-user.fa-lg:hover{
     transform:translateZ(1) scale(1);
 }
 
+.navbar.navbar-expand-lg.bg-secondary{
+    background-color: rgb(189, 59, 124) !important;
+}
+
+i.fa-brands.fa-github.fa-lg:hover{
+    color: rgb(218, 50, 240);
+}
+
+i.fa-brands.fa-youtube.fa-lg:hover{
+    color: red;
+}
+
+i.fa-brands.fa-instagram.fa-lg:hover{
+    color: pink;
+}
+
+i.fa-regular.fa-user.fa-lg:hover{
+    color: brown;
+}
 
 
 
@@ -299,7 +293,7 @@ margin: 0 0 1rem;
 }
 .about .rrss{
     width: 100%;
-    background: lightcoral;
+    background: lightpink;
 
     display: flex;
     flex-flow: row wrap;
@@ -314,14 +308,14 @@ margin: 0 0 1rem;
 .about .li .a .svg{
     width:2em;
     height:2em;
-    background: red;
+    /* background: red; */
 }
 
 
 
 
 .footer{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     padding:2em 0;
     text-align: center;
 }
