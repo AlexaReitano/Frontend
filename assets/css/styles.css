@@ -148,10 +148,8 @@ body{
 }
 
 
-
-.seccion .p{}
 .seccion .grid{
-    background: lightcoral;
+    background: rgb(112, 9, 9);
     width: 90%;
     max-width: 40em;
     margin: 1em 0;
@@ -174,9 +172,6 @@ body{
     overflow: hidden;
 
 }
-
-.seccion .a{}
-
 
 .seccion .h4{
     width: 100%;
@@ -207,7 +202,6 @@ body{
 
 
 
-
 .navbar.navbar-expand-lg.bg-secondary{
     background-color: rgb(189, 59, 124) !important;
 }
@@ -229,12 +223,9 @@ i.fa-regular.fa-user.fa-lg:hover{
 }
 
 
-
-
 .works .h2{
 margin: 0 0 1rem;
 }
-
 
 
 .about{}
@@ -247,8 +238,6 @@ margin: 0 0 1rem;
     margin: 0 0 1em;
     text-align: center;
 }
-
-
 
 
 .footer{
