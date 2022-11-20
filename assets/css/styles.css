@@ -26,22 +26,6 @@ h6 {
 }
 
 
-.main .seccion{
-
-    width: 100%;
-    min-height: 30vh;
-
-    /* margin: 1em 0; */
-    padding: 3em;
-
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
-
 
 
 .navbar.navbar-expand-lg.bg-secondary{
@@ -93,23 +77,9 @@ video {
     z-index: 2;
 }
 
-.row{
+.col-6{
     position: relative;
     z-index: 2;
-    text-align: right;
-    margin-top: -350px;
-}
-
-section{
-    position: relative;
-    z-index: 2;
-    text-align: left;
-}
-
-section.about{
-
-    margin-top: 30rem;
-    position: relative;
-    z-index: 2;
+    text-align: center;
 }
 
