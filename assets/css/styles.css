@@ -54,6 +54,9 @@ i.fa-brands.fa-instagram.fa-lg:hover{
     background: black;
 }
 
+.fa-solid.fa-user.fa-lg{
+    color: green;
+}
 
 #hero{
     min-height: 100vh;
@@ -67,7 +70,7 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-top: 29rem;
+    margin-top: 27rem;
 }
 
 .capa{
