@@ -104,3 +104,8 @@ video {
 .div .col-6 .mt-4{
     margin-left: 150px;
 }
+
+div .progress{
+    position: relative;
+    z-index: 2;
+}
