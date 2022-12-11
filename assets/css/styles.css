@@ -93,6 +93,7 @@ video {
     mix-blend-mode: overlay;
 }
 
+
 .promo{
     padding: 350px;
     display: flex;
@@ -126,9 +127,5 @@ div .progress{
     z-index: 2;
 }
 
-.btn.btn-close-white{
-margin-left: 63em;
-position: relative;
-z-index: 2;
-height: 25em;
-}
+
+
